@@ -5,4 +5,4 @@ project(quick_merge_sort LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(quick_merge_sort file_sort.hpp merge_sort.hpp quick_sort.hpp file_sort.cpp main.cpp)
+add_executable(quick_merge_sort counting_sort.hpp file_sort.hpp merge_sort.hpp quick_sort.hpp bucket_sort.hpp file_sort.cpp main.cpp)
